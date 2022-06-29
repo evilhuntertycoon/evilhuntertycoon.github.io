@@ -1,5 +1,15 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+// Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Code
+
+// Header
+.header {
+    .navbar {
+        .container {
+            a.navbar-brand {
+                font-weight: 600;
+            }
+        }
+    }
 }
