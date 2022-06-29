@@ -10,6 +10,15 @@
             a.navbar-brand {
                 font-weight: 600;
             }
+
+            .navbar-toggler {
+                border: none;
+            }
+
+            .navbar-toggler:focus {
+                outline: none;
+                box-shadow: none;
+            }
         }
     }
 }

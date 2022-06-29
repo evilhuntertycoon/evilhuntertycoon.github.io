@@ -11908,3 +11908,10 @@ textarea.form-control-lg {
 .header .navbar .container-fluid a.navbar-brand, .header .navbar .container-sm a.navbar-brand, .header .navbar .container-md a.navbar-brand, .header .navbar .container-lg a.navbar-brand, .header .navbar .container-xl a.navbar-brand, .header .navbar .container-xxl a.navbar-brand {
   font-weight: 600;
 }
+.header .navbar .container-fluid .navbar-toggler, .header .navbar .container-sm .navbar-toggler, .header .navbar .container-md .navbar-toggler, .header .navbar .container-lg .navbar-toggler, .header .navbar .container-xl .navbar-toggler, .header .navbar .container-xxl .navbar-toggler {
+  border: none;
+}
+.header .navbar .container-fluid .navbar-toggler:focus, .header .navbar .container-sm .navbar-toggler:focus, .header .navbar .container-md .navbar-toggler:focus, .header .navbar .container-lg .navbar-toggler:focus, .header .navbar .container-xl .navbar-toggler:focus, .header .navbar .container-xxl .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
